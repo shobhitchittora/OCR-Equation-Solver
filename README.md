@@ -14,5 +14,5 @@ Android app for solving mathematical equations using Tesseract OCR library and W
 
 ##Put these file under External storage under the path TessOCR/tessdata/
 
-[link] (https://www.dropbox.com/s/88jo2ggkcupfj1u/equ.traineddata?dl=0)
-[link] ()
+[link] (https://www.dropbox.com/s/88jo2ggkcupfj1u/equ.traineddata?dl=0) <br/>
+[link] (https://www.dropbox.com/s/d7gp1okueh06htp/eng.traineddata?dl=0)
