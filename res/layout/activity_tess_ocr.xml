@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#111111"
+    tools:context="${packageName}.${activityClass}"
+    tools:ignore="HardcodedText,ContentDescription,PxUsage" >
+
+    
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="69dp"
+        android:clickable="true"
+        android:src="@drawable/ic_action_camera" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginRight="56dp"
+        android:clickable="true"
+        android:src="@drawable/ic_action_picture" />
+
+    <ImageView
+        android:id="@+id/editedImage"
+        android:layout_width="wrap_content"
+        android:layout_height="300px"
+        android:layout_above="@+id/button1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/abc_ab_bottom_solid_dark_holo" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="28dp"
+        android:layout_marginTop="10px"
+        android:text="OCR"
+        android:textColor="#ffffff" 
+        android:layout_margin="10px"/>
+
+</RelativeLayout>
