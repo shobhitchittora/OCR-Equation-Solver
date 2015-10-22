@@ -8,3 +8,8 @@ Android app for solving mathematical equations using Tesseract OCR library and W
 
 
 ![Screenshot](http://i.imgur.com/AyUcIsV.png?1)
+
+
+
+
+Put these file under External storage under the path TessOCR/tessdata/
